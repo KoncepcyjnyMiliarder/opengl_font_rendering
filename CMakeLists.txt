@@ -54,7 +54,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
   glfw
   glm
   ${OPENGL_gl_LIBRARY}
-  ${GLEW_LIBRARY}
+  ${GLEW_LIBRARIES}
   soil
 )
 
